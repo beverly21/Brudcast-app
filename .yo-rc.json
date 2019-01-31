@@ -1,0 +1,55 @@
+{
+    "generator-jhipster": {
+        "promptValues": {
+            "packageName": "com.brudcast.chores",
+            "nativeLanguage": "en"
+        },
+        "jhipsterVersion": "5.8.0",
+        "applicationType": "monolith",
+        "baseName": "Brudcast",
+        "packageName": "com.brudcast.chores",
+        "packageFolder": "com/brudcast/chores",
+        "serverPort": "8080",
+        "authenticationType": "jwt",
+        "cacheProvider": "ehcache",
+        "enableHibernateCache": true,
+        "websocket": false,
+        "databaseType": "sql",
+        "devDatabaseType": "mysql",
+        "prodDatabaseType": "mysql",
+        "searchEngine": "elasticsearch",
+        "messageBroker": false,
+        "serviceDiscoveryType": "eureka",
+        "buildTool": "maven",
+        "enableSwaggerCodegen": false,
+        "jwtSecretKey": "OGJjMDk5ZTIzN2Y4ZTFkYTViNDQ1NTQ5MjlmYzc4ZTY5NzA1MzQwZDQ0ZTkyZTJhMDI2Njk4ZjhiOGYzZTc1MDZiMGMxNzQ4MjkyYjNiNzAwZTZjMzgzMGFmMmVjN2FhMmU2MDcyNWIwMjQ5YzM1Yjg0Yzk2OTMzNWNmMTg3Y2I=",
+        "clientFramework": "angularX",
+        "useSass": false,
+        "clientPackageManager": "npm",
+        "testFrameworks": [],
+        "jhiPrefix": "jhi",
+        "entitySuffix": "",
+        "dtoSuffix": "DTO",
+        "otherModules": [
+            {
+                "name": "generator-jhipster-nav-element",
+                "version": "2.1.2"
+            },
+            {
+                "name": "generator-jhipster-swagger-cli",
+                "version": "3.0.1"
+            },
+            {
+                "name": "generator-jhipster-social-login-api",
+                "version": "0.0.1"
+            },
+            {
+                "name": "generator-jhipster-aeropost",
+                "version": "1.7.0"
+            }
+        ],
+        "enableTranslation": true,
+        "nativeLanguage": "en",
+        "languages": ["en"]
+    }
+}
